@@ -12,7 +12,20 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-	// Insert code here to initialize your application
+	NSMutableArray *array = [NSMutableArray array];
+	__weak CALayer *weakLayer;
+	
+	while (1) {
+		CALayer *layer = [CALayer layer];
+		[array addObject:layer];
+		weakLayer = layer;
+		if (!weakLayer) {
+			NSLog (@"nil");
+			break;
+		}
+		NSLog(@"not nil");
+	}
+
 }
 
 @end

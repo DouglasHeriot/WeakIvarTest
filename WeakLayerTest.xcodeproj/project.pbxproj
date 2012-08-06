@@ -13,6 +13,7 @@
 		A546A77615CF5AA1009CAA31 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A546A77415CF5AA1009CAA31 /* Credits.rtf */; };
 		A546A77915CF5AA1009CAA31 /* DHDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A546A77815CF5AA1009CAA31 /* DHDAppDelegate.m */; };
 		A546A77C15CF5AA1009CAA31 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A546A77A15CF5AA1009CAA31 /* MainMenu.xib */; };
+		A546A78315CF5AE2009CAA31 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A546A78215CF5AE2009CAA31 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		A546A77715CF5AA1009CAA31 /* DHDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHDAppDelegate.h; sourceTree = "<group>"; };
 		A546A77815CF5AA1009CAA31 /* DHDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHDAppDelegate.m; sourceTree = "<group>"; };
 		A546A77B15CF5AA1009CAA31 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A546A78215CF5AE2009CAA31 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A546A78315CF5AE2009CAA31 /* QuartzCore.framework in Frameworks */,
 				A546A76615CF5AA1009CAA31 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -72,6 +75,7 @@
 		A546A76715CF5AA1009CAA31 /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A546A78215CF5AE2009CAA31 /* QuartzCore.framework */,
 				A546A76815CF5AA1009CAA31 /* AppKit.framework */,
 				A546A76915CF5AA1009CAA31 /* CoreData.framework */,
 				A546A76A15CF5AA1009CAA31 /* Foundation.framework */,
