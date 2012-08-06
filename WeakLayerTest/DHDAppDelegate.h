@@ -9,6 +9,10 @@
 #import <Cocoa/Cocoa.h>
 
 @interface DHDAppDelegate : NSObject <NSApplicationDelegate>
+{
+	NSMutableArray *array;
+	__weak CALayer *weakLayer;
+}
 
 @property (assign) IBOutlet NSWindow *window;
 

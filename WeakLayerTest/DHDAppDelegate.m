@@ -12,8 +12,7 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-	NSMutableArray *array = [NSMutableArray array];
-	__weak CALayer *weakLayer;
+	array = [NSMutableArray array];
 	
 	while (1) {
 		CALayer *layer = [CALayer layer];
